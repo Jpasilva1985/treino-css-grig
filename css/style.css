@@ -14,10 +14,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
+}
+.logo h1{
+    box-shadow: 5px 0px 5px #ccc;
 }
 .logo  span{
     color: rgb(150, 56, 56);
-   
+    box-shadow: 3px 0px 2px #ccc;
 }
 nav ul{
     display: flex;
@@ -31,16 +35,20 @@ nav a{
     text-decoration: none;
     font-size: 1.6rem;
 }
+.icons-menu{
+    cursor: pointer;
+}
 .icons-menu img{
     width: 50px;
     margin-right: 1rem;
+
 }
 .info{
-    background-color: bisque;
+    background-color:#ccc;
 }
 .content-art{
     width: 100%;
-    max-width: 1200px;
+    max-width: 80%;
     height:500px;
     margin: 10px auto;
     background-color: rgb(153, 149, 145);
@@ -52,23 +60,30 @@ nav a{
     width: 100%;
     height: 100%;
     display: flex;
+    
 }
 .abas-left{
+    
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
+    background-color: rgb(227, 231, 235);
     width: 50%;
     align-items: center;
-    padding: 10px;
-    justify-content: end;
+    padding: 30px;
+    justify-content: center;
     line-height: 1.6rem;
+    box-shadow: -10px 0px 7px #afafaf ;
+    text-align: justify;
 }
 .abas-right{
-    background-color: #ccc;
+    background-color: rgb(227, 231, 235);
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: ;
+    justify-content: center;
+    box-shadow: 10px 0px 7px #afafaf ;
+    text-align: justify;
+    padding: 30px;
 
 }
